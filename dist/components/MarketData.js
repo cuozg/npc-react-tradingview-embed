@@ -149,7 +149,7 @@ var MarketData = function (props) {
             }
         };
     }, [ref, widgetProps, widgetPropsAny]);
-    return _jsx("div", { ref: ref }, void 0);
+    return _jsx("div", { ref: ref, style:{width:'100%'} }, void 0);
 };
 export default MarketData;
 //# sourceMappingURL=MarketData.js.map
